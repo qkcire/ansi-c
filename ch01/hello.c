@@ -1,37 +1,139 @@
 #include <stdio.h>
 
-// 1.06 Arrays
-    // e1.13 histogram of the length of words
-    #define INSIDE_WORD  1
-    #define OUTSIDE_WORD 0
-
-    // left off here.
-    // unable to output results correctly
-    // need to correct algorithm
+// 1.09 Character Arrays
+    // TODO: getting error with getline. fix
+    #define MAXLINE 1000 /* maximum input line length */
+    int getline(char line[], int maxline);
+    void copy(char to[], char from[]);
+    /* print the longest input line */
     int main() {
-        int c, state, i, j;
-        int word[10];
-        for (i = 0; i < 10; ++i)
-            word[i] = 0;
-        i = j = 0;
-        while ((c = getchar()) != EOF) {
-            if (c == ' ' || c == '\t' || c == '\n')
-                word[j] = -1;
-            else {
-                word[j] += 1;
+        int len;               /* current line length */
+        int max;               /* maximum length seen so far */
+        char line[MAXLINE];    /* current input line */
+        char longest[MAXLINE]; /* longest line saved her */
+        max=0;
+        while((len=getline(line,MAXLINE))>0) {
+            if(len>max) {
+                max=len;
+                copy(longest,line);
             }
-            ++j;
         }
-        for (i = 0; i < 10; ++i) {
-            if (word[i] == 0)
-                continue;
-            
-            for (j = 0; j < word[i]; ++j)
-                printf("-");
-            // putchar('\n');
-        }
+        if(max>0) /* there was a line*/
+            printf("%s", longest);
         return 0;
     }
+    /* getline: read a line into s, return length */
+    int getline(char s[], int lim) {
+        int c, i;
+        for(i=0;i<lim-1&&(c=getchar())!=EOF&&c!='\n';++i)
+            s[i]=c;
+        if(c=='\n') {
+            s[i]=c;
+            ++i;
+        }
+        s[i]='\0';
+        return i;
+    }
+    /* copy: copy 'from' into 'to'; assume to is big enough */
+    void copy(char to[], char from[]) {
+        int i;
+        i=0;
+        while((to[i]=from[i])!='\0')
+            ++i;
+    }
+
+
+// 1.08 Arguments: Call by Value
+    // /* test power function */
+    // int power(int m, int n);
+    // int main() {
+    //     int i;
+    //     for (i = 0; i < 10; ++i)
+    //         printf("%2d %3d %6d\n", i, power(2, i), power(-3, i));
+    //     return 0;
+    // }
+    // /* power: raise base to n-th power; n >= 0*/
+    // int power(int base, int n) {
+    //     int p;
+    //     for(p=1;n>0;--n)
+    //         p=p*base;
+    //     return p;
+    // }
+
+// 1.07 Functions
+
+    // e1.15 convert fehrenheit-to-celsius into one w/ f(x)s
+    // float fToC(int fahr);
+    // int main() {
+    //     float fahr, celsius;
+    //     float lower, upper, step;
+    //     lower = 0;
+    //     upper = 300;
+    //     step = 20;
+    //     fahr = lower;
+    //     while (fahr <= upper) {
+    //         celsius = fToC(fahr);
+    //         printf("%3.0f\t%6.1f\n", fahr, celsius);
+    //         fahr = fahr + step;
+    //     }
+    //     return 0;
+    // }
+    // float fToC(int fahr) {
+    //     return (5.0/9.0) * (fahr-32);
+    // }
+
+    // int power(int m, int n);
+    
+    // /* test power function */
+    // int main() {
+    //     int i;
+    //     for (i = 0; i < 10; ++i)
+    //         printf("%3d %3d %6d\n", i, power(2, i), power(-3, i));
+    //     return 0;
+    // }
+
+    // /* power: raise base to n-th power; n >= 0*/
+    // int power(int base, int n) {
+    //     int i, p;
+    //     p = 1;
+    //     for (i = 1; i <= n; ++i)
+    //         p = p * base;
+    //     return p;
+    // }
+
+// 1.06 Arrays
+    // e1.13 histogram of the length of words
+    
+    // #define INSIDE_WORD  1
+    // #define OUTSIDE_WORD 0
+
+    // // left off here.
+    // // unable to output results correctly
+    // // need to correct algorithm
+    // int main() {
+    //     int c, state, i, j;
+    //     int word[10];
+    //     for (i = 0; i < 10; ++i)
+    //         word[i] = 0;
+    //     i = j = 0;
+    //     while ((c = getchar()) != EOF) {
+    //         if (c == ' ' || c == '\t' || c == '\n')
+    //             word[j] = -1;
+    //         else {
+    //             word[j] += 1;
+    //         }
+    //         ++j;
+    //     }
+    //     for (i = 0; i < 10; ++i) {
+    //         if (word[i] == 0)
+    //             continue;
+            
+    //         for (j = 0; j < word[i]; ++j)
+    //             printf("-");
+    //         // putchar('\n');
+    //     }
+    //     return 0;
+    // }
 
     /* count digits, white space, others */
 
