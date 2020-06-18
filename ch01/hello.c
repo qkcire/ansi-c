@@ -5,6 +5,9 @@
     #define INSIDE_WORD  1
     #define OUTSIDE_WORD 0
 
+    // left off here.
+    // unable to output results correctly
+    // need to correct algorithm
     int main() {
         int c, state, i, j;
         int word[10];
