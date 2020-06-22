@@ -37,7 +37,9 @@ int getline(char s[], int lim) {
     return i;
 }
 
-void reversed()
+void reversed(char to[], char from[]) {
+    
+}
 
 /*
 void copy(char to[], char from[]) {
