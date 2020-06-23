@@ -2,7 +2,7 @@
 #define MAXLINE 1000 /* maximum input line length */
 
 int getline(char line[], int maxline);
-void reversed(char to[], char from[]);
+void reverse(char to[], char from[], int len);
 /*void copy(char to[], char from[]);*/
 
 int main() {
@@ -12,14 +12,15 @@ int main() {
     char reversed[MAXLINE];
     max = 0;
     while ((len = getline(line, MAXLINE)) > 0) {
-        reverse(reversed, line);
-        // if (len > max) {
-        //     max = len;
-        //     copy(longest, line);
-        // }
+        /* reverse(reversed, line, len); */
+        if (len > max) {
+            max = len;
+            reverse(reversed, line, len);
+            /* copy(longest, line); */ 
+        }
     }
     if (max > 0) {
-        prinft("%s", reversed);
+        printf("printing: %s", reversed);
     }
     return 0;
 }
@@ -37,8 +38,15 @@ int getline(char s[], int lim) {
     return i;
 }
 
-void reversed(char to[], char from[]) {
+void reverse(char to[], char from[], int len) {
+    printf("reverse f(x)");
+    int i, j;
+    j = 0;
+    for (i = len - 1; i > -1; --i, ++j) {
+        to[j] = from[i];
+    }
     
+    printf("line 46: %s", to);
 }
 
 /*
