@@ -17,8 +17,8 @@
     - [~] 1.10 External Variables and Scope
 
 ## CH02: Types, Operatores and Expressions
-    - [~] 2.01 Variable Names
-    - [ ] 2.02 Data Types and sizes
+    - [X] 2.01 Variable Names
+    - [~] 2.02 Data Types and sizes
     - [ ] 2.03 Constants
     - [ ] 2.04 Declarations
     - [ ] 2.05 Arithmetic Operators
