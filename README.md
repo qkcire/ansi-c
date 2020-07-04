@@ -17,6 +17,18 @@
     - [~] 1.10 External Variables and Scope
 
 ## CH02: Types, Operatores and Expressions
+    - [~] 2.01 Variable Names
+    - [ ] 2.02 Data Types and sizes
+    - [ ] 2.03 Constants
+    - [ ] 2.04 Declarations
+    - [ ] 2.05 Arithmetic Operators
+    - [ ] 2.06 Relational and Logical Operators
+    - [ ] 2.07 Type Conversions
+    - [ ] 2.08 Increment and Decrement Operators
+    - [ ] 2.09 Bitwise Operators
+    - [ ] 2.10 Assignment Operators and Expressions
+    - [ ] 2.11 Conditional Expressions
+    - [ ] 2.12 Precedence and Order of Evaluation
 
 ## CH03: Control Flow
 
