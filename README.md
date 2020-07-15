@@ -1,31 +1,31 @@
 # The ANSI C Programming Language 2nd Edition Workthrough
 
 ## CH01: A Tutorial Introduction
-    - [X] 1.01 Getting started
-    - [X] 1.02 Variables and Arithmetic Expressions
-    - [X] 1.03 The for statement
-    - [X] 1.04 Symbolic Constants
-    - [X] 1.05 Character Input and Output
-        - [X] 1.5.1 File Copying
-        - [X] 1.5.2 Character Counting
-        - [X] 1.5.3 Line Counting
-        - [X] 1.5.4 Word Counting
-    - [X] 1.06 Arrays
-    - [X] 1.07 Functions
-    - [X] 1.08 Arguments: Call by Value
-    - [X] 1.09 Characters Arrays
-    - [~] 1.10 External Variables and Scope
+    - [~] 1.01 Getting started
+    - [ ] 1.02 Variables and Arithmetic Expressions
+    - [ ] 1.03 The for statement
+    - [ ] 1.04 Symbolic Constants
+    - [ ] 1.05 Character Input and Output
+        - [ ] 1.5.1 File Copying
+        - [ ] 1.5.2 Character Counting
+        - [ ] 1.5.3 Line Counting
+        - [ ] 1.5.4 Word Counting
+    - [ ] 1.06 Arrays
+    - [ ] 1.07 Functions
+    - [ ] 1.08 Arguments: Call by Value
+    - [ ] 1.09 Characters Arrays
+    - [ ] 1.10 External Variables and Scope
 
 ## CH02: Types, Operatores and Expressions
-    - [X] 2.01 Variable Names
-    - [~] 2.02 Data Types and sizes
-    - [ ] 2.03 Constants
-    - [ ] 2.04 Declarations
-    - [ ] 2.05 Arithmetic Operators
-    - [ ] 2.06 Relational and Logical Operators
-    - [ ] 2.07 Type Conversions
-    - [ ] 2.08 Increment and Decrement Operators
-    - [ ] 2.09 Bitwise Operators
+    - [ ] 2.01 Variable Names, c, _
+    - [ ] 2.02 Data Types and sizes, _, e
+    - [ ] 2.03 Constants, c, _
+    - [ ] 2.04 Declarations, _, _
+    - [ ] 2.05 Arithmetic Operators, c, _
+    - [ ] 2.06 Relational and Logical Operators, _, e
+    - [ ] 2.07 Type Conversions, c, e
+    - [ ] 2.08 Increment and Decrement Operators, c, e
+    - [ ] 2.09 Bitwise Operators, _, e
     - [ ] 2.10 Assignment Operators and Expressions
     - [ ] 2.11 Conditional Expressions
     - [ ] 2.12 Precedence and Order of Evaluation
