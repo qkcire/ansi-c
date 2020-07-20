@@ -2,7 +2,7 @@
 
 ## CH01: A Tutorial Introduction
     - [X] 1.01 Getting started, 1-1, 1-2
-    - [~] 1.02 Variables and Arithmetic Expressions
+    - [X] 1.02 Variables and Arithmetic Expressions
     - [ ] 1.03 The for statement
     - [ ] 1.04 Symbolic Constants
     - [ ] 1.05 Character Input and Output
