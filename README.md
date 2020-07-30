@@ -11,8 +11,8 @@
         - [X] 1.5.3 Line Counting
         - [X] 1.5.4 Word Counting
     - [X] 1.06 Arrays
-    - [~] 1.07 Functions
-    - [ ] 1.08 Arguments: Call by Value
+    - [X] 1.07 Functions
+    - [~] 1.08 Arguments: Call by Value
     - [ ] 1.09 Characters Arrays
     - [ ] 1.10 External Variables and Scope
 
