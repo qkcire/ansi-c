@@ -6,6 +6,8 @@
  * lengths of words in its input. It is  easy 
  * to draw the histogram with the bars horizontal;
  * a vertical orientation is more challenging.
+ * 
+ * 
 */
 #define MAX_WORD_COUNT  99
 #define MAX_WORD_LENGTH 99
