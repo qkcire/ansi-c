@@ -6,7 +6,7 @@
     - [X] 1.03 The for statement
     - [X] 1.04 Symbolic Constants
     - [X] 1.05 Character Input and Output
-        - [~] 1.5.1 File Copying
+        - [X] 1.5.1 File Copying
         - [ ] 1.5.2 Character Counting
         - [ ] 1.5.3 Line Counting
         - [ ] 1.5.4 Word Counting
