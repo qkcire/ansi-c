@@ -6,6 +6,8 @@
 
 int main() {
     int c;
+    printf("Hi.\n");
+    printf("Enter your full name: ");
     c = getchar();
     while (c != EOF) {
         putchar(c);
