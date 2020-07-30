@@ -7,8 +7,8 @@
     - [X] 1.04 Symbolic Constants
     - [X] 1.05 Character Input and Output
         - [X] 1.5.1 File Copying
-        - [ ] 1.5.2 Character Counting
-        - [ ] 1.5.3 Line Counting
+        - [X] 1.5.2 Character Counting
+        - [~] 1.5.3 Line Counting
         - [ ] 1.5.4 Word Counting
     - [ ] 1.06 Arrays
     - [ ] 1.07 Functions
