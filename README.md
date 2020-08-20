@@ -13,8 +13,8 @@
     - [X] 1.06 Arrays
     - [X] 1.07 Functions
     - [X] 1.08 Arguments: Call by Value
-    - [~] 1.09 Characters Arrays
-    - [ ] 1.10 External Variables and Scope
+    - [X] 1.09 Characters Arrays
+    - [~] 1.10 External Variables and Scope
 
 ## CH02: Types, Operatores and Expressions
     - [ ] 2.01 Variable Names
