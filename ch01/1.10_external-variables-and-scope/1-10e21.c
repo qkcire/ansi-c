@@ -70,21 +70,6 @@ void entab(void) {
   extern char entab_line[];
   extern int tab_count;
   extern int tab_indices[];
-/**
-  int i, j, k, l;
-  i = j = k = l = 0;
-  for (i; i < tab_count; ++i) {
-    k = tab_indices[i];
-    while (j != k) {
-      entab_line[j] = line[l];
-      ++j;
-      ++l;
-    }
-    entab_line[j] = '\t';
-    ++j;
-    l = l + SPACE_REQ - 1;
-  }
-*/
   int i, j, k, l;
   i = j = l = 0;
   k = -1;
